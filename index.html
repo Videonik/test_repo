@@ -3,10 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New git project</title>
+    <title>Button game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon/">
 </head>
 <body>
-    <h1>Я впервые расместил свой кодна удалённом репозитории</h1>
-    <h2>Изменения в ветке new-branch</h2>
+<div  class="windowAutorization">
+    <div class="authorization">
+        <div id="textAutorization">You'r &nbsp name</div>
+        <input id="autorizationInput" placeholder="nikname">
+        <button id="autorizationBtn">Countinue</button>
+    </div>
+</div>
+
+<div class="welcome hide">
+    <div class="welcomeBlock">
+    <div id="welcomeText"></div>
+    <div id="name"></div>
+    <button id="playBtn">PLAY</button>
+    </div>
+</div>
+
+<div class="play hide">
+    <div class="board">
+        <div id="Score"></div>
+        <div id="scoreName"></div>
+    </div>
+    <button class="btn"></button>
+    <button class="btn1"></button>
+    <button class="btn2"></button>
+    <button class="btn3"></button>
+    <button class="btn4"></button>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
